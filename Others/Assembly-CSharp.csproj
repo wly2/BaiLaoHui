@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{119CE805-D845-305C-61C5-6781F4D68BB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;HOTFIX_ENABLE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BuildOnlyAssets\Animations\UI_MicPhoneScript.cs" />
+     <Compile Include="Assets\FT_ImpactEffects_volume01\HandResource\HandAnima.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\EffectScriptSample.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDetachObject.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDontActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectAniBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectBehaviour.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectInitBackup.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRandomTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcRepeatTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTimerTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcTransformTool.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NgInterpolate.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NgMath.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsEffectManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsRenderManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NsSharedManager.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAddForce.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachPrefab.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAttachSound.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDeactive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcAutoDestruct.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcBillboard.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcChangeAlpha.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcCurveAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDelayActive.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDetachParent.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcDuplicator.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleEmit.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSpiral.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcParticleSystem.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcRotation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteAnimation.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteFactory.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcSpriteTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTilingTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcTrailTexture.cs" />
+     <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\NcUvAnimation.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_DemoGUI.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_FPS.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scene\RFX4_RealtimeReflection.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_AudioCurves.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_LightCurves.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_PhysicsForceCurves.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ScaleCurves.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderColorGradient.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderFloatCurve.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_ShaderProperties.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\Curves\RFX4_WindCurves.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingColor.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingPhysxForce.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingProjectile.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\EffectSettings\RFX4_EffectSettingVisible.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_CollisionPropertyDeactiavtion.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleCollisionHandler.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleLight.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_ParticleTrail.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\ParticleSysem\RFX4_Turbulence.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_CameraShake.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ColorHelper.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_CopyPosition.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DeactivateByTime.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DeactivateRigidbodyByTime.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DemoReactivation.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_DistortionAndBloom.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_EffectEvent.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_MaterialQueue.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_OnEnableResetTransform.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_PhysXSetImpulse.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_RaycastCollision.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ReplaceMaterialByTime.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_ReplaceModelOnCollision.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_RotateAround.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_StartDelay.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TextureShaderProperties.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TornadoParticles.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TrailRenderer.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_TransformMotion.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_UVAnimation.cs" />
+     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Scripts\RFX4_UVScroll.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicButtonScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicDragMouseOrbit.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicFireProjectile.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoadSceneOnClick.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoopScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicProjectileScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicBeamScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicLightFade.cs" />
+     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicRotation.cs" />
+     <Compile Include="Assets\Resources\TestForDrag.cs" />
+     <Compile Include="Assets\Script\BaseScript\BaseAcesScript\NetManager\ScoketJRevent.cs" />
+     <Compile Include="Assets\Script\BaseScript\ClickMove.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\CGameKindItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\Chitchat.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\CMD_GameServer.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\CMD_LogonServer.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\Define.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\GlobalEnum.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\GlobalStruc.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\LOGIN_SERVER_CMD.cs" />
+     <Compile Include="Assets\Script\BaseScript\CMD\SSSStruct.cs" />
+     <Compile Include="Assets\Script\BaseScript\Conceal.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Common\CommandLineParser.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Common\CRC.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Common\InBuffer.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Common\OutBuffer.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZ\IMatchFinder.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZ\LzBinTree.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZ\LzInWindow.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZ\LzOutWindow.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZMA\LzmaBase.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZMA\LzmaDecoder.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LZMA\LzmaEncoder.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LzmaAlone\LzmaAlone.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LzmaAlone\LzmaBench.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LzmaAlone\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\LzmaAlone\Properties\Resources.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\RangeCoder\RangeCoder.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\RangeCoder\RangeCoderBit.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\Compress\RangeCoder\RangeCoderBitTree.cs" />
+     <Compile Include="Assets\Script\BaseScript\CS\7zip\ICoder.cs" />
+     <Compile Include="Assets\Script\BaseScript\DataItem\EmailItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\DataItem\SiginData.cs" />
+     <Compile Include="Assets\Script\BaseScript\DataItem\SiginItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\DataManager\GamePayManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\DataManager\SiginDataManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\Expression.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CEventMgr.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CGameDefine.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CGameRoot.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CGameRootCfg.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CGameRootCfgGame.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\CGameSystem.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\EventDefine.cs" />
+     <Compile Include="Assets\Script\BaseScript\Framework\IEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\GameToolScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\MessageBoxScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\NumberScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\Over_Game\finalOverItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\Over_Game\yuSetScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\playBack\PlayerItemBackScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\PlayerItemScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\SettingButtonScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\ShowSpeakingScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\StartPanelCtrlScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Game_Scenes\timer.cs" />
+     <Compile Include="Assets\Script\BaseScript\gameConfig\GameConfig.cs" />
+     <Compile Include="Assets\Script\BaseScript\gameConfig\ServiceErrorListener.cs" />
+     <Compile Include="Assets\Script\BaseScript\GameMessageManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\Global\HttpManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\Global\Url.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\BroadcastScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\HomePanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\LotteryItemScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\LotteryPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\RankListItemScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Home_Panel_Event\SetPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\ISocketEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\LocalizationManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\Login_Panle_Event\InitializationConfigScritp.cs" />
+     <Compile Include="Assets\Script\BaseScript\mahjongCard\BottomScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\mahjongCard\OtherCardScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\MahjongMotion.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ChatRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ChatSocket.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ClientRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ClientResponse.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\CreateRoomRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\CurrentStatusRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\CustomSocket.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\CustomSocket11.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\DissoliveRoomRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GameBackPlayRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GameReadyRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GangCardRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GaveUpRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GetContactInfoRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\GetGiftRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\HeadRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\HupaiRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\JoinRoomRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\LoginRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\MessageBoxRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\OutRoomRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\PengCardRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\PutOutCardRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ReConnectScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\SoundMicInput\LoginChatRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\SoundMicInput\MicInputRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\request\ZhanjiRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\TalkDataManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\Account.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\AvatarVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\BackLoginResponse.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\BackLoginResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\CardVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\DateVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\DissoliveRoomRequestVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\DissoliveRoomResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\EmptyClass.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\FinalGameEndItemVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\FinalGameEndVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GameBehaviourVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GamePlayBackVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GamePlayResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GangBackVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GangNoticeVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GangRequestVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GiftItemVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\GiftList.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\HupaiRequestVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\HupaiResponseItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\HupaiResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\LastOperationVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\LoginVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\LotteryData.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\OtherChiBackVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\OtherPengGangBackVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\OutCardVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\OutRoomRequestVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\OutRoomResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\PlayerBackVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\PlayerStateVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ReturnOnlineVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\RoomCreateResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\RoomCreateVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\RoomJoinResponseVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\RoomJoinVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ServiceVersionVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\StartGameVO.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\TotalInfo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\Version.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiDataItemVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiDataList.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiOneRoomData.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiRoomDataItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiRoomDataItemVo.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiRoomList.cs" />
+     <Compile Include="Assets\Script\BaseScript\Manager\vo\ZhanjiSearchRequest.cs" />
+     <Compile Include="Assets\Script\BaseScript\MyAudio.cs" />
+     <Compile Include="Assets\Script\BaseScript\MySceneManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\APIS.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\NetUtil.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketBaseEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketEngine.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketEventHandle.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketInGameEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketLoginEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketPIndividualEveng.cs" />
+     <Compile Include="Assets\Script\BaseScript\NetManager\SocketSendManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\PaoMaDeng.cs" />
+     <Compile Include="Assets\Script\BaseScript\PaoMaDengManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\ParticularsItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\PlayerInformation.cs" />
+     <Compile Include="Assets\Script\BaseScript\PlayerPositionItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\QianDaoCount.cs" />
+     <Compile Include="Assets\Script\BaseScript\RankItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\RankManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\RecordButton.cs" />
+     <Compile Include="Assets\Script\BaseScript\RecordItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\RecordManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\ResourceManager\AssetBundleConfig.cs" />
+     <Compile Include="Assets\Script\BaseScript\ResourceManager\AssetBundleManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\ResourceManager\BundleUpdate.cs" />
+     <Compile Include="Assets\Script\BaseScript\ResourceManager\MonoSingleton.cs" />
+     <Compile Include="Assets\Script\BaseScript\ResourceManager\ResourcesLoader.cs" />
+     <Compile Include="Assets\Script\BaseScript\RoomRecord.cs" />
+     <Compile Include="Assets\Script\BaseScript\RoomRecordIcon.cs" />
+     <Compile Include="Assets\Script\BaseScript\RoomRecordManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\ScreenAdaptation.cs" />
+     <Compile Include="Assets\Script\BaseScript\ScrollPage.cs" />
+     <Compile Include="Assets\Script\BaseScript\ScrollPageMark.cs" />
+     <Compile Include="Assets\Script\BaseScript\ScrollRectList.cs" />
+     <Compile Include="Assets\Script\BaseScript\ServerDataManager\CServerListData.cs" />
+     <Compile Include="Assets\Script\BaseScript\SoundManager\AudioCtrlPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\SoundManager\MicroPhoneInput.cs" />
+     <Compile Include="Assets\Script\BaseScript\SoundManager\SoundManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\SoundManager\SoundToggleScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\TalkButton.cs" />
+     <Compile Include="Assets\Script\BaseScript\TalkItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\TalkItemData.cs" />
+     <Compile Include="Assets\Script\BaseScript\TalkPanelBtn.cs" />
+     <Compile Include="Assets\Script\BaseScript\test\DebugPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\test\SocketForDebugPanel.cs" />
+     <Compile Include="Assets\Script\BaseScript\TextSpacing.cs" />
+     <Compile Include="Assets\Script\BaseScript\TheRoomInformation.cs" />
+     <Compile Include="Assets\Script\BaseScript\TheRoomInformationUI.cs" />
+     <Compile Include="Assets\Script\BaseScript\TingReply.cs" />
+     <Compile Include="Assets\Script\BaseScript\Tournament.cs" />
+     <Compile Include="Assets\Script\BaseScript\TournamentItem.cs" />
+     <Compile Include="Assets\Script\BaseScript\TournamentManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\TournamentUI.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\PlayerResult.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Activity.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Agent.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Course.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_CreateRoom.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_DissloveRoom.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_ExitGame.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_ExitRoom.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_GameOver.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_GameOverNN.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Help.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Invite.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_JoinRoom.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_KeFu.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Loading.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_PersonalDetails.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_PositionMonitoring.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Protocol.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Rank.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Realname.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Recharge.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Register.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Report.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_ResultsTheDetails.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_RoomOver.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_RoomOverNN.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_SceneLoading.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Screenshot.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Share.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_SignIn.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_TipsDialog.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_UserInfo.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_WanFa.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanel_Withdrawal.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIpanelEMail.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanelLogin.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanelSetting.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIPanelTalk.cs" />
+     <Compile Include="Assets\Script\BaseScript\UI\UIWindow.cs" />
+     <Compile Include="Assets\Script\BaseScript\UnityGuiConsole.cs" />
+     <Compile Include="Assets\Script\BaseScript\UnityLog.cs" />
+     <Compile Include="Assets\Script\BaseScript\UnityLogBtn.cs" />
+     <Compile Include="Assets\Script\BaseScript\UnityPhoneManager.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\BaseDialog.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\CloseButton.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\CommonEvent.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\CutPic.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\DialogPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\FileIO.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\FxLifeTime.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\GlobalDataScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\HideScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\IOSIpv6.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\MyDebug.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\NaiziHuScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\NormalHuScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\TipPanelScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\TipsManagerScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\UI_Rotation.cs" />
+     <Compile Include="Assets\Script\BaseScript\utilTool\UpdateScript.cs" />
+     <Compile Include="Assets\Script\BaseScript\WeChatInformation.cs" />
+     <Compile Include="Assets\Script\BaseScript\WithTheDetails.cs" />
+     <Compile Include="Assets\Script\BaseScript\WithTheDetailsManager.cs" />
+     <Compile Include="Assets\Script\DebugScreen.cs" />
+     <Compile Include="Assets\Script\Julebu\SocketJuleBu.cs" />
+     <Compile Include="Assets\Script\LuaHelper.cs" />
+     <Compile Include="Assets\Script\MainNewsDataManager.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\ButtonActionScript.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\GameResourceManager.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\MaJiangGameCtl.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\NetManager\LoginData.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\NetManager\MaJiangHelper.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\ThrowCtl.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\ThrowItem.cs" />
+     <Compile Include="Assets\Script\MaJiangScript\UI\UIMaJiangPanel.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\GameDataNN.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\NetManager\SocketNiuNiuEvent.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\NiuNiuGameCtl.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\NNStruct.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\PlayerRoomOverItemNN.cs" />
+     <Compile Include="Assets\Script\NiuNiuScript\UIPanelNN.cs" />
+     <Compile Include="Assets\Script\ShiSanShuiScript\GameDataSSS.cs" />
+     <Compile Include="Assets\Script\ShiSanShuiScript\NetManager\SocketSSSEvent.cs" />
+     <Compile Include="Assets\Script\ShiSanShuiScript\PukeCardItem.cs" />
+     <Compile Include="Assets\Script\ShiSanShuiScript\ShowMaPuke.cs" />
+     <Compile Include="Assets\Script\ShiSanShuiScript\UIPanelSSS.cs" />
+     <Compile Include="Assets\Script\Singleton.cs" />
+     <Compile Include="Assets\Script\Test\MD5_test.cs" />
+     <Compile Include="Assets\Script\Test\test.cs" />
+     <Compile Include="Assets\Script\Test\UI\DataResource.cs" />
+     <Compile Include="Assets\Script\Test\UI\EnumDefine.cs" />
+     <Compile Include="Assets\Script\Test\UI\EventTriggerListener.cs" />
+     <Compile Include="Assets\Script\Test\UI\LayerUIMgr.cs" />
+     <Compile Include="Assets\Script\Test\UI\ResourcesMgr.cs" />
+     <Compile Include="Assets\Script\Test\UI\UIRootCtrl.cs" />
+     <Compile Include="Assets\Script\Test\UI\UIViewBase.cs" />
+     <Compile Include="Assets\Script\Test\UI\UIViewUtil.cs" />
+     <Compile Include="Assets\Script\Test\UI\UIWindowViewBase.cs" />
+     <Compile Include="Assets\Script\Test\UpdateFrame.cs" />
+     <Compile Include="Assets\Script\Test\XLuaFramework\Core\LuaManager.cs" />
+     <Compile Include="Assets\Script\Test\XLuaFramework\Core\LuaViewBehaviour.cs" />
+     <Compile Include="Assets\Script\Test\XLuaFramework\Core\LuaWindowBehaviour.cs" />
+     <Compile Include="Assets\Script\Test\XLuaFramework\Core\XLuaCustomExport.cs" />
+     <Compile Include="Assets\Script\Test\XLuaFramework\GameManager.cs" />
+     <Compile Include="Assets\Shader\NewBehaviourScriptsss.cs" />
+     <Compile Include="Assets\Test_Me\MyDelegate.cs" />
+     <Compile Include="Assets\Test_Me\test_Me.cs" />
+     <Compile Include="Assets\XLua\Examples\01_Helloworld\Helloworld.cs" />
+     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
+     <Compile Include="Assets\XLua\Examples\05_NoGc\NoGc.cs" />
+     <Compile Include="Assets\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
+     <Compile Include="Assets\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
+     <Compile Include="Assets\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
+     <Compile Include="Assets\XLua\Examples\07_AsyncTest\MessageBox.cs" />
+     <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest.cs" />
+     <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
+     <Compile Include="Assets\XLua\Examples\08_Hotfix\StatefullTest.cs" />
+     <Compile Include="Assets\XLua\Examples\09_GenericMethod\Foo.cs" />
+     <Compile Include="Assets\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
+     <Compile Include="Assets\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
+     <Compile Include="Assets\XLua\Examples\11_RawObject\RawObjectTest.cs" />
+     <Compile Include="Assets\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
+     <Compile Include="Assets\XLua\Examples\ExampleGenConfig.cs" />
+     <Compile Include="Assets\XLua\Gen\Coroutine_RunnerWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\CSCallLuaItfDBridge.cs" />
+     <Compile Include="Assets\XLua\Gen\DelegatesGensBridge.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningCoreABSSequentiableWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningCoreTweenerCore3UnityEngineVector3UnityEngineVector3DGTweeningPluginsOptionsVectorOptionsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningDOTweenWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningDOVirtualWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningEaseFactoryWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningSequenceWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensions43Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensions46Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensions50Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningShortcutExtensionsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningTweenerWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningTweenExtensionsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningTweenParamsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningTweenSettingsExtensionsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\DGTweeningTweenWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\EnumWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\Foo1ChildWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\Foo1ParentWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\Foo2ChildWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\Foo2ParentWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\FooExtensionWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\FooWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\InvokeLuaICalcBridge.cs" />
+     <Compile Include="Assets\XLua\Gen\LuaBehaviourWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\LuaHelperWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\LuaWindowBehaviourWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
+     <Compile Include="Assets\XLua\Gen\SystemCollectionsGenericList1SystemInt32Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\SystemCollectionsIEnumeratorBridge.cs" />
+     <Compile Include="Assets\XLua\Gen\SystemObjectWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\TutorialBaseClassWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\TutorialDrivenClassExtensionsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\TutorialDrivenClassWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\TutorialICalcWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineAnimationClipWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineAnimationCurveWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineBehaviourWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineBoundsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineColorWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineComponentWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineDebugWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineGameObjectWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineKeyframeWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineMonoBehaviourWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineObjectWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineParticleSystemWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineQuaternionWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineRay2DWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineRayWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineRendererWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineResourcesWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineSkinnedMeshRendererWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineTextAssetWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineTimeWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineTransformWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineVector2Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineVector3Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineVector4Wrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineWaitForSecondsWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\UnityEngineWWWWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\WrapPusher.cs" />
+     <Compile Include="Assets\XLua\Gen\XLuaGenAutoRegister.cs" />
+     <Compile Include="Assets\XLua\Gen\XLuaTestIExchangerBridge.cs" />
+     <Compile Include="Assets\XLua\Gen\XLuaTestMyStructWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\XLuaTestNoGcWrap.cs" />
+     <Compile Include="Assets\XLua\Gen\XLuaTestPeddingWrap.cs" />
+     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
+     <Compile Include="Assets\XLua\Src\CopyByValue.cs" />
+     <Compile Include="Assets\XLua\Src\DelegateBridge.cs" />
+     <Compile Include="Assets\XLua\Src\GenAttributes.cs" />
+     <Compile Include="Assets\XLua\Src\InternalGlobals.cs" />
+     <Compile Include="Assets\XLua\Src\LuaBase.cs" />
+     <Compile Include="Assets\XLua\Src\LuaDLL.cs" />
+     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
+     <Compile Include="Assets\XLua\Src\LuaException.cs" />
+     <Compile Include="Assets\XLua\Src\LuaFunction.cs" />
+     <Compile Include="Assets\XLua\Src\LuaTable.cs" />
+     <Compile Include="Assets\XLua\Src\MethodWarpsCache.cs" />
+     <Compile Include="Assets\XLua\Src\ObjectCasters.cs" />
+     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
+     <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
+     <Compile Include="Assets\XLua\Src\ObjectTranslatorPool.cs" />
+     <Compile Include="Assets\XLua\Src\RawObject.cs" />
+     <Compile Include="Assets\XLua\Src\SignatureLoader.cs" />
+     <Compile Include="Assets\XLua\Src\StaticLuaCallbacks.cs" />
+     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
+     <Compile Include="Assets\XLua\Src\TypeExtensions.cs" />
+     <Compile Include="Assets\XLua\Src\Utils.cs" />
+     <Compile Include="Assets\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
+     <Compile Include="Assets\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
+     <None Include="Assets\Plugins\Android\res\menu\main.xml" />
+     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
+     <None Include="Assets\BuildOnlyAssets\MajiangAssets\Shader\qm.shader" />
+     <None Include="Assets\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Tornado.shader" />
+     <None Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
+     <None Include="Assets\Fonts\Num6.fnt" />
+     <None Include="Assets\Plugins\Android\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
+     <None Include="Assets\Others\Flowlight.shader" />
+     <None Include="Assets\Fonts\ShuZi.fnt" />
+     <None Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
+     <None Include="Assets\Fonts\MainUiNum.fnt" />
+     <None Include="Assets\BuildOnlyAssets\BaseAssets\Lua\ooo.lua.txt" />
+     <None Include="Assets\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMobile.shader" />
+     <None Include="Assets\Fonts\Blue.fnt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
+     <None Include="Assets\Resources\Fonts\bmp.fnt" />
+     <None Include="Assets\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+     <None Include="Assets\Resources\Fonts\Blue.fnt" />
+     <None Include="Assets\Fonts\Num3.fnt" />
+     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
+     <None Include="Assets\Plugins\Android\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\DOTween113\readme.txt" />
+     <None Include="Assets\Fonts\3DText.shader" />
+     <None Include="Assets\config.txt" />
+     <None Include="Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
+     <None Include="Assets\Fonts\sssNum.fnt" />
+     <None Include="Assets\DOTween113\DOTween50.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Fonts\Num4.fnt" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_ShaderExtension.cginc" />
+     <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
+     <None Include="Assets\XLua\Gen\Resources\hotfix_id_map.lua.txt" />
+     <None Include="Assets\Shader\3D Text Shader.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Fonts\Num2.fnt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
+     <None Include="Assets\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Particle.shader" />
+     <None Include="Assets\XLua\Gen\link.xml" />
+     <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaRegisterGCM.tpl.txt" />
+     <None Include="Assets\Resources\Chinese.txt" />
+     <None Include="Assets\Fonts\Yellow.fnt" />
+     <None Include="Assets\Fonts\Num5.fnt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
+     <None Include="Assets\BuildOnlyAssets\MajiangAssets\Shader\Specular with Shader.shader" />
+     <None Include="Assets\Fonts\Num1.fnt" />
+     <None Include="Assets\DOTween113\DOTween46.xml" />
+     <None Include="Assets\Resources\Data\TalkItem.txt" />
+     <None Include="Assets\XLua\CHANGELOG.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
+     <None Include="Assets\Plugins\Android\res\values-sw720dp-land\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
+     <None Include="Assets\Resources\shaders\DefaultGrey.shader" />
+     <None Include="Assets\DOTween113\DOTween43.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/program files/Unity/Unity2017.1.1f/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Unity Files/Programs/BaiLaoHui/Assets/DOTween113/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Unity Files/Programs/BaiLaoHui/Assets/DOTween113/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Unity Files/Programs/BaiLaoHui/Assets/DOTween113/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Unity Files/Programs/BaiLaoHui/Assets/DOTween113/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>E:/Unity Files/Programs/BaiLaoHui/Assets/Resources/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{223DC079-9B06-5AF4-8A28-F105A83D8A50}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

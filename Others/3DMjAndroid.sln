@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DMjAndroid", "3DMjAndroid.csproj", "{C636D274-CBD5-A4CA-9FBC-4AF474EDB81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DMjAndroid.Plugins", "3DMjAndroid.Plugins.csproj", "{E8058BDD-9806-4379-18CB-EB3534734BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DMjAndroid.Editor", "3DMjAndroid.Editor.csproj", "{38A81C6F-7D38-6F29-A90C-390E6820FB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DMjAndroid.Editor.Plugins", "3DMjAndroid.Editor.Plugins.csproj", "{FB429579-C2B0-3DFB-5E08-C904B2A58C3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C636D274-CBD5-A4CA-9FBC-4AF474EDB81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C636D274-CBD5-A4CA-9FBC-4AF474EDB81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C636D274-CBD5-A4CA-9FBC-4AF474EDB81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C636D274-CBD5-A4CA-9FBC-4AF474EDB81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8058BDD-9806-4379-18CB-EB3534734BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8058BDD-9806-4379-18CB-EB3534734BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8058BDD-9806-4379-18CB-EB3534734BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8058BDD-9806-4379-18CB-EB3534734BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A81C6F-7D38-6F29-A90C-390E6820FB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A81C6F-7D38-6F29-A90C-390E6820FB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A81C6F-7D38-6F29-A90C-390E6820FB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A81C6F-7D38-6F29-A90C-390E6820FB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB429579-C2B0-3DFB-5E08-C904B2A58C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB429579-C2B0-3DFB-5E08-C904B2A58C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB429579-C2B0-3DFB-5E08-C904B2A58C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB429579-C2B0-3DFB-5E08-C904B2A58C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
