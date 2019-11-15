@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="1.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter RelativePath=".\..\..\.." Toggle="false" >
+        <Filter RelativePath=".\.vs" Toggle="false" >
+            <Filter RelativePath=".\config" Toggle="true" />
+            <Filter RelativePath=".\xLua_Study" Toggle="false" >
+                <Filter RelativePath=".\v14" Toggle="true" />
+            </Filter>
+        </Filter>
+        <Filter RelativePath=".\Assets" Toggle="false" >
+            <Filter RelativePath=".\Demigiant" Toggle="false" >
+                <Filter RelativePath=".\DemiLib" Toggle="false" >
+                    <Filter RelativePath=".\Editor" Toggle="false" >
+                        <Filter RelativePath=".\Imgs" Toggle="true" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\DOTween" Toggle="false" >
+                    <Filter RelativePath=".\Editor" Toggle="false" >
+                        <Filter RelativePath=".\Imgs" Toggle="true" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\DOTweenPro" Toggle="false" >
+                    <Filter RelativePath=".\Editor" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\DOTweenPro Examples" Toggle="false" >
+                    <Filter RelativePath=".\Examples Assets" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\Plugins" Toggle="false" >
+                <Filter RelativePath=".\Android" Toggle="false" >
+                    <Filter RelativePath=".\libs" Toggle="false" >
+                        <Filter RelativePath=".\armeabi-v7a" Toggle="true" />
+                        <Filter RelativePath=".\x86" Toggle="true" />
+                    </Filter>
+                </Filter>
+                <Filter RelativePath=".\iOS" Toggle="true" />
+                <Filter RelativePath=".\x86" Toggle="true" />
+                <Filter RelativePath=".\x86_64" Toggle="true" />
+                <Filter RelativePath=".\xlua.bundle" Toggle="false" >
+                    <Filter RelativePath=".\Contents" Toggle="false" >
+                        <Filter RelativePath=".\MacOS" Toggle="true" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\Resources" Toggle="false" >
+                <Filter RelativePath=".\UIPrefab" Toggle="false" >
+                    <Filter RelativePath=".\UIScene" Toggle="true" />
+                    <Filter RelativePath=".\UIWindows" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\Scene" Toggle="true" />
+            <Filter RelativePath=".\Script" Toggle="false" >
+                <Filter RelativePath=".\UI" Toggle="true" />
+                <Filter RelativePath=".\XLuaFramework" Toggle="false" >
+                    <Filter RelativePath=".\Core" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\TestFix" Toggle="true" />
+            <Filter RelativePath=".\UISource" Toggle="false" >
+                <Filter RelativePath=".\UICommon" Toggle="true" />
+                <Filter RelativePath=".\UIFont" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\XLua" Toggle="false" >
+                <Filter RelativePath=".\Doc" Toggle="false" >
+                    <Filter RelativePath=".\Materials" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\Examples" Toggle="false" >
+                    <Filter RelativePath=".\01_Helloworld" Toggle="true" />
+                    <Filter RelativePath=".\02_U3DScripting" Toggle="true" />
+                    <Filter RelativePath=".\03_UIEvent" Toggle="true" />
+                    <Filter RelativePath=".\04_LuaObjectOrented" Toggle="true" />
+                    <Filter RelativePath=".\05_NoGc" Toggle="true" />
+                    <Filter RelativePath=".\06_Coroutine" Toggle="false" >
+                        <Filter RelativePath=".\Resources" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\07_AsyncTest" Toggle="false" >
+                        <Filter RelativePath=".\Resources" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\08_Hotfix" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\Resources" Toggle="false" >
+                    <Filter RelativePath=".\perf" Toggle="true" />
+                    <Filter RelativePath=".\tdr" Toggle="true" />
+                    <Filter RelativePath=".\xlua" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\Src" Toggle="false" >
+                    <Filter RelativePath=".\Editor" Toggle="false" >
+                        <Filter RelativePath=".\LinkXmlGen" Toggle="true" />
+                        <Filter RelativePath=".\Template" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\TemplateEngine" Toggle="true" />
+                </Filter>
+                <Filter RelativePath=".\Tutorial" Toggle="false" >
+                    <Filter RelativePath=".\CSharpCallLua" Toggle="true" />
+                    <Filter RelativePath=".\LoadLuaScript" Toggle="false" >
+                        <Filter RelativePath=".\ByFile" Toggle="false" >
+                            <Filter RelativePath=".\Resources" Toggle="true" />
+                        </Filter>
+                        <Filter RelativePath=".\ByString" Toggle="true" />
+                        <Filter RelativePath=".\Loader" Toggle="true" />
+                    </Filter>
+                    <Filter RelativePath=".\LuaCallCSharp" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\XLuaLogic" Toggle="false" >
+                <LuaFile RelativePath=".\CtrlManager.lua" />
+                <LuaFile RelativePath=".\GameInit.lua" />
+                <LuaFile RelativePath=".\Main.lua" />
+                <Filter RelativePath=".\1" Toggle="true" >
+                    <LuaFile RelativePath=".\1.luaprj" />
+                </Filter>
+                <Filter RelativePath=".\Common" Toggle="false" >
+                    <LuaFile RelativePath=".\Define.lua" />
+                    <LuaFile RelativePath=".\Class.lua" />
+                    <LuaFile RelativePath=".\List.lua" />
+                    <LuaFile RelativePath=".\coruntine_test.lua" />
+                    <LuaFile RelativePath=".\cs_coroutine.lua" />
+                </Filter>
+                <Filter RelativePath=".\Controller" Toggle="false" >
+                    <LuaFile RelativePath=".\MessageCtrl.lua" />
+                    <LuaFile RelativePath=".\UIRootCtrl.lua" />
+                    <LuaFile RelativePath=".\NiuNiuCtrl.lua" />
+                </Filter>
+                <Filter RelativePath=".\Data" Toggle="false" >
+                    <LuaFile RelativePath=".\TaskEntity.Lua" />
+                </Filter>
+                <Filter RelativePath=".\Proto" Toggle="true" />
+                <Filter RelativePath=".\View" Toggle="false" >
+                    <LuaFile RelativePath=".\MessageView.lua" />
+                    <LuaFile RelativePath=".\UIRootView.lua" />
+                    <LuaFile RelativePath=".\NiuNiuView.lua" />
+                </Filter>
+            </Filter>
+            <Filter RelativePath=".\Scenes" Toggle="true" />
+        </Filter>
+        <Filter RelativePath=".\Library" Toggle="false" >
+            <Filter RelativePath=".\metadata" Toggle="false" >
+                <Filter RelativePath=".\00" Toggle="true" />
+                <Filter RelativePath=".\01" Toggle="true" />
+                <Filter RelativePath=".\02" Toggle="true" />
+                <Filter RelativePath=".\03" Toggle="true" />
+                <Filter RelativePath=".\04" Toggle="true" />
+                <Filter RelativePath=".\05" Toggle="true" />
+                <Filter RelativePath=".\06" Toggle="true" />
+                <Filter RelativePath=".\07" Toggle="true" />
+                <Filter RelativePath=".\08" Toggle="true" />
+                <Filter RelativePath=".\09" Toggle="true" />
+                <Filter RelativePath=".\0a" Toggle="true" />
+                <Filter RelativePath=".\0b" Toggle="true" />
+                <Filter RelativePath=".\0c" Toggle="true" />
+                <Filter RelativePath=".\0d" Toggle="true" />
+                <Filter RelativePath=".\0e" Toggle="true" />
+                <Filter RelativePath=".\0f" Toggle="true" />
+                <Filter RelativePath=".\10" Toggle="true" />
+                <Filter RelativePath=".\11" Toggle="true" />
+                <Filter RelativePath=".\12" Toggle="true" />
+                <Filter RelativePath=".\13" Toggle="true" />
+                <Filter RelativePath=".\14" Toggle="true" />
+                <Filter RelativePath=".\15" Toggle="true" />
+                <Filter RelativePath=".\16" Toggle="true" />
+                <Filter RelativePath=".\17" Toggle="true" />
+                <Filter RelativePath=".\18" Toggle="true" />
+                <Filter RelativePath=".\19" Toggle="true" />
+                <Filter RelativePath=".\1a" Toggle="true" />
+                <Filter RelativePath=".\1b" Toggle="true" />
+                <Filter RelativePath=".\1c" Toggle="true" />
+                <Filter RelativePath=".\1d" Toggle="true" />
+                <Filter RelativePath=".\1e" Toggle="true" />
+                <Filter RelativePath=".\1f" Toggle="true" />
+                <Filter RelativePath=".\20" Toggle="true" />
+                <Filter RelativePath=".\21" Toggle="true" />
+                <Filter RelativePath=".\22" Toggle="true" />
+                <Filter RelativePath=".\23" Toggle="true" />
+                <Filter RelativePath=".\24" Toggle="true" />
+                <Filter RelativePath=".\25" Toggle="true" />
+                <Filter RelativePath=".\26" Toggle="true" />
+                <Filter RelativePath=".\27" Toggle="true" />
+                <Filter RelativePath=".\28" Toggle="true" />
+                <Filter RelativePath=".\29" Toggle="true" />
+                <Filter RelativePath=".\2a" Toggle="true" />
+                <Filter RelativePath=".\2b" Toggle="true" />
+                <Filter RelativePath=".\2c" Toggle="true" />
+                <Filter RelativePath=".\2d" Toggle="true" />
+                <Filter RelativePath=".\2e" Toggle="true" />
+                <Filter RelativePath=".\2f" Toggle="true" />
+                <Filter RelativePath=".\30" Toggle="true" />
+                <Filter RelativePath=".\31" Toggle="true" />
+                <Filter RelativePath=".\32" Toggle="true" />
+                <Filter RelativePath=".\33" Toggle="true" />
+                <Filter RelativePath=".\34" Toggle="true" />
+                <Filter RelativePath=".\35" Toggle="true" />
+                <Filter RelativePath=".\36" Toggle="true" />
+                <Filter RelativePath=".\37" Toggle="true" />
+                <Filter RelativePath=".\38" Toggle="true" />
+                <Filter RelativePath=".\39" Toggle="true" />
+                <Filter RelativePath=".\3a" Toggle="true" />
+                <Filter RelativePath=".\3b" Toggle="true" />
+                <Filter RelativePath=".\3c" Toggle="true" />
+                <Filter RelativePath=".\3d" Toggle="true" />
+                <Filter RelativePath=".\3e" Toggle="true" />
+                <Filter RelativePath=".\3f" Toggle="true" />
+                <Filter RelativePath=".\40" Toggle="true" />
+                <Filter RelativePath=".\41" Toggle="true" />
+                <Filter RelativePath=".\42" Toggle="true" />
+                <Filter RelativePath=".\43" Toggle="true" />
+                <Filter RelativePath=".\44" Toggle="true" />
+                <Filter RelativePath=".\45" Toggle="true" />
+                <Filter RelativePath=".\46" Toggle="true" />
+                <Filter RelativePath=".\47" Toggle="true" />
+                <Filter RelativePath=".\48" Toggle="true" />
+                <Filter RelativePath=".\49" Toggle="true" />
+                <Filter RelativePath=".\4a" Toggle="true" />
+                <Filter RelativePath=".\4b" Toggle="true" />
+                <Filter RelativePath=".\4c" Toggle="true" />
+                <Filter RelativePath=".\4d" Toggle="true" />
+                <Filter RelativePath=".\4e" Toggle="true" />
+                <Filter RelativePath=".\4f" Toggle="true" />
+                <Filter RelativePath=".\50" Toggle="true" />
+                <Filter RelativePath=".\51" Toggle="true" />
+                <Filter RelativePath=".\52" Toggle="true" />
+                <Filter RelativePath=".\53" Toggle="true" />
+                <Filter RelativePath=".\54" Toggle="true" />
+                <Filter RelativePath=".\55" Toggle="true" />
+                <Filter RelativePath=".\56" Toggle="true" />
+                <Filter RelativePath=".\57" Toggle="true" />
+                <Filter RelativePath=".\58" Toggle="true" />
+                <Filter RelativePath=".\59" Toggle="true" />
+                <Filter RelativePath=".\5a" Toggle="true" />
+                <Filter RelativePath=".\5b" Toggle="true" />
+                <Filter RelativePath=".\5c" Toggle="true" />
+                <Filter RelativePath=".\5d" Toggle="true" />
+                <Filter RelativePath=".\5e" Toggle="true" />
+                <Filter RelativePath=".\5f" Toggle="true" />
+                <Filter RelativePath=".\60" Toggle="true" />
+                <Filter RelativePath=".\61" Toggle="true" />
+                <Filter RelativePath=".\62" Toggle="true" />
+                <Filter RelativePath=".\63" Toggle="true" />
+                <Filter RelativePath=".\64" Toggle="true" />
+                <Filter RelativePath=".\65" Toggle="true" />
+                <Filter RelativePath=".\66" Toggle="true" />
+                <Filter RelativePath=".\67" Toggle="true" />
+                <Filter RelativePath=".\68" Toggle="true" />
+                <Filter RelativePath=".\69" Toggle="true" />
+                <Filter RelativePath=".\6a" Toggle="true" />
+                <Filter RelativePath=".\6b" Toggle="true" />
+                <Filter RelativePath=".\6c" Toggle="true" />
+                <Filter RelativePath=".\6d" Toggle="true" />
+                <Filter RelativePath=".\6e" Toggle="true" />
+                <Filter RelativePath=".\6f" Toggle="true" />
+                <Filter RelativePath=".\70" Toggle="true" />
+                <Filter RelativePath=".\71" Toggle="true" />
+                <Filter RelativePath=".\72" Toggle="true" />
+                <Filter RelativePath=".\73" Toggle="true" />
+                <Filter RelativePath=".\74" Toggle="true" />
+                <Filter RelativePath=".\75" Toggle="true" />
+                <Filter RelativePath=".\76" Toggle="true" />
+                <Filter RelativePath=".\77" Toggle="true" />
+                <Filter RelativePath=".\78" Toggle="true" />
+                <Filter RelativePath=".\79" Toggle="true" />
+                <Filter RelativePath=".\7a" Toggle="true" />
+                <Filter RelativePath=".\7b" Toggle="true" />
+                <Filter RelativePath=".\7c" Toggle="true" />
+                <Filter RelativePath=".\7d" Toggle="true" />
+                <Filter RelativePath=".\7e" Toggle="true" />
+                <Filter RelativePath=".\7f" Toggle="true" />
+                <Filter RelativePath=".\80" Toggle="true" />
+                <Filter RelativePath=".\81" Toggle="true" />
+                <Filter RelativePath=".\82" Toggle="true" />
+                <Filter RelativePath=".\83" Toggle="true" />
+                <Filter RelativePath=".\84" Toggle="true" />
+                <Filter RelativePath=".\85" Toggle="true" />
+                <Filter RelativePath=".\86" Toggle="true" />
+                <Filter RelativePath=".\87" Toggle="true" />
+                <Filter RelativePath=".\88" Toggle="true" />
+                <Filter RelativePath=".\89" Toggle="true" />
+                <Filter RelativePath=".\8a" Toggle="true" />
+                <Filter RelativePath=".\8b" Toggle="true" />
+                <Filter RelativePath=".\8c" Toggle="true" />
+                <Filter RelativePath=".\8d" Toggle="true" />
+                <Filter RelativePath=".\8e" Toggle="true" />
+                <Filter RelativePath=".\8f" Toggle="true" />
+                <Filter RelativePath=".\90" Toggle="true" />
+                <Filter RelativePath=".\91" Toggle="true" />
+                <Filter RelativePath=".\92" Toggle="true" />
+                <Filter RelativePath=".\93" Toggle="true" />
+                <Filter RelativePath=".\94" Toggle="true" />
+                <Filter RelativePath=".\95" Toggle="true" />
+                <Filter RelativePath=".\96" Toggle="true" />
+                <Filter RelativePath=".\97" Toggle="true" />
+                <Filter RelativePath=".\98" Toggle="true" />
+                <Filter RelativePath=".\99" Toggle="true" />
+                <Filter RelativePath=".\9a" Toggle="true" />
+                <Filter RelativePath=".\9b" Toggle="true" />
+                <Filter RelativePath=".\9c" Toggle="true" />
+                <Filter RelativePath=".\9d" Toggle="true" />
+                <Filter RelativePath=".\9e" Toggle="true" />
+                <Filter RelativePath=".\9f" Toggle="true" />
+                <Filter RelativePath=".\a0" Toggle="true" />
+                <Filter RelativePath=".\a1" Toggle="true" />
+                <Filter RelativePath=".\a2" Toggle="true" />
+                <Filter RelativePath=".\a3" Toggle="true" />
+                <Filter RelativePath=".\a4" Toggle="true" />
+                <Filter RelativePath=".\a5" Toggle="true" />
+                <Filter RelativePath=".\a6" Toggle="true" />
+                <Filter RelativePath=".\a7" Toggle="true" />
+                <Filter RelativePath=".\a8" Toggle="true" />
+                <Filter RelativePath=".\a9" Toggle="true" />
+                <Filter RelativePath=".\aa" Toggle="true" />
+                <Filter RelativePath=".\ab" Toggle="true" />
+                <Filter RelativePath=".\ac" Toggle="true" />
+                <Filter RelativePath=".\ad" Toggle="true" />
+                <Filter RelativePath=".\ae" Toggle="true" />
+                <Filter RelativePath=".\af" Toggle="true" />
+                <Filter RelativePath=".\b0" Toggle="true" />
+                <Filter RelativePath=".\b1" Toggle="true" />
+                <Filter RelativePath=".\b2" Toggle="true" />
+                <Filter RelativePath=".\b3" Toggle="true" />
+                <Filter RelativePath=".\b4" Toggle="true" />
+                <Filter RelativePath=".\b5" Toggle="true" />
+                <Filter RelativePath=".\b6" Toggle="true" />
+                <Filter RelativePath=".\b7" Toggle="true" />
+                <Filter RelativePath=".\b8" Toggle="true" />
+                <Filter RelativePath=".\b9" Toggle="true" />
+                <Filter RelativePath=".\ba" Toggle="true" />
+                <Filter RelativePath=".\bb" Toggle="true" />
+                <Filter RelativePath=".\bc" Toggle="true" />
+                <Filter RelativePath=".\bd" Toggle="true" />
+                <Filter RelativePath=".\be" Toggle="true" />
+                <Filter RelativePath=".\bf" Toggle="true" />
+                <Filter RelativePath=".\c0" Toggle="true" />
+                <Filter RelativePath=".\c1" Toggle="true" />
+                <Filter RelativePath=".\c2" Toggle="true" />
+                <Filter RelativePath=".\c3" Toggle="true" />
+                <Filter RelativePath=".\c4" Toggle="true" />
+                <Filter RelativePath=".\c5" Toggle="true" />
+                <Filter RelativePath=".\c6" Toggle="true" />
+                <Filter RelativePath=".\c7" Toggle="true" />
+                <Filter RelativePath=".\c8" Toggle="true" />
+                <Filter RelativePath=".\c9" Toggle="true" />
+                <Filter RelativePath=".\ca" Toggle="true" />
+                <Filter RelativePath=".\cb" Toggle="true" />
+                <Filter RelativePath=".\cc" Toggle="true" />
+                <Filter RelativePath=".\cd" Toggle="true" />
+                <Filter RelativePath=".\ce" Toggle="true" />
+                <Filter RelativePath=".\cf" Toggle="true" />
+                <Filter RelativePath=".\d0" Toggle="true" />
+                <Filter RelativePath=".\d1" Toggle="true" />
+                <Filter RelativePath=".\d2" Toggle="true" />
+                <Filter RelativePath=".\d3" Toggle="true" />
+                <Filter RelativePath=".\d4" Toggle="true" />
+                <Filter RelativePath=".\d5" Toggle="true" />
+                <Filter RelativePath=".\d6" Toggle="true" />
+                <Filter RelativePath=".\d7" Toggle="true" />
+                <Filter RelativePath=".\d8" Toggle="true" />
+                <Filter RelativePath=".\d9" Toggle="true" />
+                <Filter RelativePath=".\da" Toggle="true" />
+                <Filter RelativePath=".\db" Toggle="true" />
+                <Filter RelativePath=".\dc" Toggle="true" />
+                <Filter RelativePath=".\dd" Toggle="true" />
+                <Filter RelativePath=".\de" Toggle="true" />
+                <Filter RelativePath=".\df" Toggle="true" />
+                <Filter RelativePath=".\e0" Toggle="true" />
+                <Filter RelativePath=".\e1" Toggle="true" />
+                <Filter RelativePath=".\e2" Toggle="true" />
+                <Filter RelativePath=".\e3" Toggle="true" />
+                <Filter RelativePath=".\e4" Toggle="true" />
+                <Filter RelativePath=".\e5" Toggle="true" />
+                <Filter RelativePath=".\e6" Toggle="true" />
+                <Filter RelativePath=".\e7" Toggle="true" />
+                <Filter RelativePath=".\e8" Toggle="true" />
+                <Filter RelativePath=".\e9" Toggle="true" />
+                <Filter RelativePath=".\ea" Toggle="true" />
+                <Filter RelativePath=".\eb" Toggle="true" />
+                <Filter RelativePath=".\ec" Toggle="true" />
+                <Filter RelativePath=".\ed" Toggle="true" />
+                <Filter RelativePath=".\ee" Toggle="true" />
+                <Filter RelativePath=".\ef" Toggle="true" />
+                <Filter RelativePath=".\f0" Toggle="true" />
+                <Filter RelativePath=".\f1" Toggle="true" />
+                <Filter RelativePath=".\f2" Toggle="true" />
+                <Filter RelativePath=".\f3" Toggle="true" />
+                <Filter RelativePath=".\f4" Toggle="true" />
+                <Filter RelativePath=".\f5" Toggle="true" />
+                <Filter RelativePath=".\f6" Toggle="true" />
+                <Filter RelativePath=".\f7" Toggle="true" />
+                <Filter RelativePath=".\f8" Toggle="true" />
+                <Filter RelativePath=".\f9" Toggle="true" />
+                <Filter RelativePath=".\fa" Toggle="true" />
+                <Filter RelativePath=".\fb" Toggle="true" />
+                <Filter RelativePath=".\fc" Toggle="true" />
+                <Filter RelativePath=".\fd" Toggle="true" />
+                <Filter RelativePath=".\fe" Toggle="true" />
+                <Filter RelativePath=".\ff" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\ScriptAssemblies" Toggle="true" />
+            <Filter RelativePath=".\ShaderCache" Toggle="false" >
+                <Filter RelativePath=".\0" Toggle="true" />
+                <Filter RelativePath=".\1" Toggle="true" />
+                <Filter RelativePath=".\2" Toggle="true" />
+                <Filter RelativePath=".\3" Toggle="true" />
+                <Filter RelativePath=".\4" Toggle="true" />
+                <Filter RelativePath=".\5" Toggle="true" />
+                <Filter RelativePath=".\6" Toggle="true" />
+                <Filter RelativePath=".\7" Toggle="true" />
+                <Filter RelativePath=".\8" Toggle="true" />
+                <Filter RelativePath=".\9" Toggle="true" />
+                <Filter RelativePath=".\a" Toggle="true" />
+                <Filter RelativePath=".\b" Toggle="true" />
+                <Filter RelativePath=".\c" Toggle="true" />
+                <Filter RelativePath=".\d" Toggle="true" />
+                <Filter RelativePath=".\e" Toggle="true" />
+                <Filter RelativePath=".\f" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\UnityAssemblies" Toggle="true" />
+        </Filter>
+        <Filter RelativePath=".\ProjectSettings" Toggle="true" />
+        <Filter RelativePath=".\Temp" Toggle="false" >
+            <Filter RelativePath=".\ProcessJobs" Toggle="true" />
+            <Filter RelativePath=".\__Backupscenes" Toggle="true" />
+            <Filter RelativePath=".\bin" Toggle="true" >
+                <Filter RelativePath=".\Debug" Toggle="true" />
+            </Filter>
+            <Filter RelativePath=".\TarGZ" Toggle="true" />
+        </Filter>
+        <Filter RelativePath=".\obj" Toggle="false" >
+            <Filter RelativePath=".\Debug" Toggle="true" >
+                <Filter RelativePath=".\TempPE" Toggle="true" />
+            </Filter>
+        </Filter>
+    </Filter>
+</Project>

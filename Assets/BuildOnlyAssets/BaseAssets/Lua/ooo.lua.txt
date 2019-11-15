@@ -1,0 +1,5 @@
+xlua.hotfix(CS.ResourcesLoader, 'testC', function(self)
+print('<<<<<<<<test aaa log ')  
+end)
+
+           

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c75f500392ee1bd40b613be298fa0b53
+timeCreated: 1520818871
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZZhunYuan-M02S
+  fontNames:
+  - FZZhunYuan-M02S
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 17ec28d33f292ad4caf28aeb764b9715, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: font.unity3d
+  assetBundleVariant: 

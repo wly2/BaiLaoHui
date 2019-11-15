@@ -1,0 +1,1432 @@
+fileFormatVersion: 2
+guid: b1c84845e2588034e9b8a083b017ab02
+timeCreated: 1505803738
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: 2
+    100002: 2 1
+    100004: AvatarPos
+    100006: AvatarPos 1
+    100008: AvatarPos 2
+    100010: AvatarPos 3
+    100012: Back
+    100014: Back 1
+    100016: Back 2
+    100018: Back 3
+    100020: Back 4
+    100022: Back 5
+    100024: Back 6
+    100026: Back 7
+    100028: Back2
+    100030: Back2 1
+    100032: Back2 2
+    100034: Back2 3
+    100036: Background
+    100038: background
+    100040: Background 1
+    100042: Background 10
+    100044: Background 11
+    100046: Background 12
+    100048: Background 13
+    100050: Background 14
+    100052: Background 15
+    100054: Background 16
+    100056: Background 17
+    100058: Background 18
+    100060: Background 19
+    100062: Background 2
+    100064: Background 20
+    100066: Background 21
+    100068: Background 22
+    100070: Background 23
+    100072: Background 24
+    100074: Background 3
+    100076: Background 4
+    100078: Background 5
+    100080: Background 6
+    100082: Background 7
+    100084: Background 8
+    100086: Background 9
+    100088: BeanMatch
+    100090: Beans
+    100092: Beans 1
+    100094: Beans 10
+    100096: Beans 11
+    100098: Beans 12
+    100100: Beans 13
+    100102: Beans 14
+    100104: Beans 15
+    100106: Beans 2
+    100108: Beans 3
+    100110: Beans 4
+    100112: Beans 5
+    100114: Beans 6
+    100116: Beans 7
+    100118: Beans 8
+    100120: Beans 9
+    100122: Beans_liuguang
+    100124: Beans_liuguang 1
+    100126: Beans_liuguang 2
+    100128: Beans_liuguang 3
+    100130: BigMJPaiPos
+    100132: BK
+    100134: Bk
+    100136: bk
+    100138: Bk 1
+    100140: bk 1
+    100142: bk 2
+    100144: BlurBack
+    100146: btn
+    100148: Btn1
+    100150: Btn2
+    100152: Btn3
+    100154: Btn4
+    100156: Btn_TrustTips
+    100158: Btn_Tuoguan
+    100160: Bubble
+    100162: Button-ChangShaGang
+    100164: Button-Chi
+    100166: Button-DealHu
+    100168: Button-DealHuGuo
+    100170: Button-DianPao
+    100172: Button-Gang
+    100174: Button-GangYao
+    100176: Button-GangYaoBlockGuo
+    100178: Button-GangYaoGuo
+    100180: Button-GangYaoHu
+    100182: Button-Guo
+    100184: Button-HaiDiGuo
+    100186: Button-HaiDiYao
+    100188: Button-Hu
+    100190: Button-MultiChi
+    100192: Button-MultiGangYao
+    100194: Button-MultiMingGang
+    100196: Button-MultiPeng
+    100198: Button-Peng
+    100200: Button-Ting
+    100202: Button-ZhaNiao
+    100204: Button_back
+    100206: Button_backToHall
+    100208: Button_beans
+    100210: Button_Bet
+    100212: Button_chat
+    100214: Button_Friend
+    100216: Button_help
+    100218: Button_Laizi
+    100220: Button_menu
+    100222: Button_onlineFriend
+    100224: Button_SecretCuiTa
+    100226: Button_secretRoomInfo
+    100228: Button_start
+    100230: Button_task
+    100232: Button_Tips
+    100234: Button_Vibrate
+    100236: Button_View
+    100238: Button_WinMore
+    100240: Button_WX
+    100242: ButtonCancel
+    100244: camera1pos
+    100246: camera1pos 1
+    100248: camera1pos 2
+    100250: camera1pos 3
+    100252: camera1pos 4
+    100254: camera2end
+    100256: camera2end 1
+    100258: camera2end 2
+    100260: camera2end 3
+    100262: camera2end 4
+    100264: camera2star
+    100266: camera2star 1
+    100268: camera2star 2
+    100270: camera2star 3
+    100272: camera2star 4
+    100274: Carpet
+    100276: CenterNumber
+    100278: Changci_Difen
+    100280: Changci_Hong
+    100282: Changci_Info
+    100284: Changci_Title
+    100286: ChangeMJContainer
+    100288: chargeBtn
+    100290: Chat
+    100292: Chat 1
+    100294: Chat 2
+    100296: Chat 3
+    100298: Container
+    100300: Container 1
+    100302: Containers
+    100304: Containers 1
+    100306: Containers 2
+    100308: Containers 3
+    100310: content
+    100312: Controller
+    100314: Countdown_effect
+    100316: Countdown_effect 1
+    100318: Countdown_effect 2
+    100320: Countdown_effect 3
+    100322: CPGUIPanel
+    100324: DahuCamera
+    100326: Desk
+    100328: DeskContainer
+    100330: Detail
+    100332: DetailChoicePanel
+    100334: Difen
+    100336: Difen 1
+    100338: Dingque_Ani
+    100340: Dingque_Ani 1
+    100342: Dingque_Ani 2
+    100344: Dingque_Ani 3
+    100346: Dingque_icon
+    100348: Dingque_icon 1
+    100350: Dingque_icon 2
+    100352: Dingque_icon 3
+    100354: Dingque_icon 4
+    100356: Dingque_icon 5
+    100358: Dingque_icon 6
+    100360: Dingque_icon 7
+    100362: Dingque_Text
+    100364: Dingque_Text 1
+    100366: Dingque_Text 2
+    100368: Dingque_Text 3
+    100370: direction
+    100372: disableMic
+    100374: djs_number
+    100376: east
+    100378: effect
+    100380: effect 1
+    100382: effect 2
+    100384: effect 3
+    100386: face_bk_mask
+    100388: face_bk_mask 1
+    100390: face_bk_mask 2
+    100392: face_bk_mask 3
+    100394: face_bk_selected
+    100396: face_bk_selected 1
+    100398: face_bk_selected 2
+    100400: face_bk_selected 3
+    100402: face_bk_unselected
+    100404: face_bk_unselected 1
+    100406: face_bk_unselected 2
+    100408: face_bk_unselected 3
+    100410: Fen
+    100412: Fen 1
+    100414: Fen 10
+    100416: Fen 11
+    100418: Fen 12
+    100420: Fen 13
+    100422: Fen 14
+    100424: Fen 15
+    100426: Fen 2
+    100428: Fen 3
+    100430: Fen 4
+    100432: Fen 5
+    100434: Fen 6
+    100436: Fen 7
+    100438: Fen 8
+    100440: Fen 9
+    100442: Fen_liuguang2
+    100444: Fen_liuguang2 1
+    100446: Fen_liuguang2 2
+    100448: Fen_liuguang2 3
+    100450: FlowerHolder
+    100452: FlowerHolder 1
+    100454: FlowerHolder 2
+    100456: FlowerHolder 3
+    100458: FrontCamera
+    100460: FrontCamera 1
+    100462: FrontCameraPos
+    100464: FrontHandCamera_16_9
+    100466: FrontHandCamera_4_3
+    100468: FrontLayer
+    100470: FUser0
+    100472: FUser1
+    100474: FUser2
+    100476: FUser3
+    100478: FX_ButtonBet_effect
+    100480: FX_UI01_piaofen_01
+    100482: FX_UI01_piaofen_01 1
+    100484: FX_UI01_piaofen_01 2
+    100486: FX_UI01_piaofen_01 3
+    100488: FX_UI01_piaofen_02
+    100490: FX_UI01_piaofen_02 1
+    100492: FX_UI01_piaofen_02 2
+    100494: FX_UI01_piaofen_02 3
+    100496: FX_UI01_piaofenMatch_01
+    100498: FX_UI01_piaofenMatch_02
+    100500: FX_UI01_renshu_01
+    100502: FX_UI01_renshu_01 1
+    100504: FX_UI01_renshu_01 2
+    100506: FX_UI01_renshu_01 3
+    100508: GameController
+    100510: glass
+    100512: gou
+    100514: Grid
+    100516: GuoHuCount
+    100518: handtiles
+    100520: hint
+    100522: Hole
+    100524: Hu_State
+    100526: Hu_State 1
+    100528: Hu_State 2
+    100530: Hu_State 3
+    100532: Icons
+    100534: Icons 1
+    100536: Icons 2
+    100538: JieSuanObj
+    100540: Kaikuo
+    100542: Label
+    100544: label
+    100546: Label 1
+    100548: label 1
+    100550: Label 10
+    100552: Label 11
+    100554: Label 12
+    100556: Label 13
+    100558: Label 2
+    100560: label 2
+    100562: Label 3
+    100564: label 3
+    100566: Label 4
+    100568: label 4
+    100570: Label 5
+    100572: label 5
+    100574: Label 6
+    100576: Label 7
+    100578: Label 8
+    100580: Label 9
+    100582: Label1
+    100584: Label1 1
+    100586: Label2
+    100588: Label2 1
+    100590: Label_bean
+    100592: label_bean
+    100594: Label_bean 1
+    100596: Label_bean 2
+    100598: Label_bean 3
+    100600: Label_bean 4
+    100602: Label_bean_bg
+    100604: Label_bean_icon
+    100606: label_blue
+    100608: Label_fenshu
+    100610: Label_fenshu 1
+    100612: Label_fenshu 2
+    100614: Label_fenshu 3
+    100616: Label_HuInfo
+    100618: Label_HuInfo 1
+    100620: Label_HuInfo 2
+    100622: Label_HuInfo 3
+    100624: Label_Lose_Money
+    100626: Label_Lose_Money 1
+    100628: Label_Lose_Money 2
+    100630: Label_Lose_Money 3
+    100632: Label_Lose_Money 4
+    100634: Label_Lose_Money 5
+    100636: Label_Lose_Money 6
+    100638: Label_Lose_Money 7
+    100640: Label_Lose_Money 8
+    100642: label_orange
+    100644: label_other
+    100646: Label_Piao
+    100648: Label_Piao 1
+    100650: Label_Piao 2
+    100652: Label_Piao 3
+    100654: Label_private_bean
+    100656: Label_private_bean 1
+    100658: Label_private_bean 2
+    100660: Label_private_bean 3
+    100662: Label_Text
+    100664: Label_Texture_face
+    100666: Label_Texture_face 1
+    100668: Label_Texture_face 2
+    100670: Label_Texture_face 3
+    100672: Label_Win_Money
+    100674: Label_Win_Money 1
+    100676: Label_Win_Money 2
+    100678: Label_Win_Money 3
+    100680: Label_Win_Money 4
+    100682: Label_Win_Money 5
+    100684: Label_Win_Money 6
+    100686: Label_Win_Money 7
+    100688: Label_Win_Money 8
+    100690: Label_WX
+    100692: Lable1
+    100694: Lable2
+    100696: Lable2_Time
+    100698: Lable_SVIP
+    100700: Lable_SVIP 1
+    100702: Lable_SVIP 2
+    100704: Lable_SVIP 3
+    100706: Lable_VIP
+    100708: Lable_VIP 1
+    100710: Lable_VIP 2
+    100712: Lable_VIP 3
+    100714: LastDropPointer
+    100716: liangguang
+    100718: liangguang 1
+    100720: liangguang 2
+    100722: liangguang 3
+    100724: light2
+    100726: liuguang2
+    100728: lizi01
+    100730: lizi01 1
+    100732: lizi01 2
+    100734: lizi01 3
+    100736: lizi01 4
+    100738: lizi01 5
+    100740: lizi01 6
+    100742: lizi01 7
+    100744: lizi02
+    100746: MahjongTable
+    100748: MahjongTable_Lift_LR
+    100750: MahjongTable_Lift_TB
+    100752: MainCamera_16_9
+    100754: MainCamera_4_3
+    100756: Marquee
+    100758: Marquee 1
+    100760: Match_Leaderboard
+    100762: matchtype
+    100764: mic
+    100766: MJCount
+    100768: mjpai01
+    100770: mjpai01 1
+    100772: mjpai01 2
+    100774: mjpai01 3
+    100776: mjpai01 4
+    100778: mjpai01 5
+    100780: mjpai01 6
+    100782: mjpai01 7
+    100784: mjpai01_L
+    100786: mjpai01_L 1
+    100788: mjpai01_L 2
+    100790: mjpai01_L 3
+    100792: mjpai04_1
+    100794: mjpai04_2
+    100796: mjpai11
+    100798: mjpai11 1
+    100800: mjpai11_L
+    100802: mjpai12
+    100804: mjpai12 1
+    100806: mjpai12_L
+    100808: mjpai13
+    100810: mjpai13 1
+    100812: mjpai13_L
+    100814: mjpai14
+    100816: mjpai14 1
+    100818: mjpai14_L
+    100820: mjpai14_L 1
+    100822: My_Beans
+    100824: Name
+    100826: Name 1
+    100828: north
+    100830: Number
+    100832: Number 1
+    100834: OffLine
+    100836: OffLine 1
+    100838: OffLine 2
+    100840: OffLine 3
+    100842: offlineIcon
+    100844: offlineIcon 1
+    100846: offlineIcon 2
+    100848: offlineIcon 3
+    100850: Panel_Piaofen
+    100852: Particle System
+    100854: Particle System 1
+    100856: Particle System 2
+    100858: Particle System 3
+    100860: Piaofen
+    100862: Piaofen 1
+    100864: Piaofen 2
+    100866: Piaofen 3
+    100868: Plan
+    100870: Plane
+    100872: Plane 1
+    100874: Plane 2
+    100876: PlayedHolder
+    100878: PlayedHolder 1
+    100880: PlayedHolder 2
+    100882: PlayedHolder 3
+    100884: Player0
+    100886: Player1
+    100888: Player2
+    100890: Player3
+    100892: PlayerMJ0
+    100894: PlayerMJ1
+    100896: PlayerMJ2
+    100898: PlayerMJ3
+    100900: point01
+    100902: pointer_01
+    100904: pointer_02
+    100906: PrivateOverTips
+    100908: qihu
+    100910: QiHuLabel
+    100912: Red_Dot
+    100914: Red_Dot_san
+    100916: Renshu
+    100918: Renshu 1
+    100920: Renshu 2
+    100922: Renshu 3
+    100924: result
+    100926: roomOwner_icon
+    100928: roomOwner_icon 1
+    100930: roomOwner_icon 2
+    100932: roomOwner_icon 3
+    100934: RotateObj
+    100936: roundFDInfo
+    100938: roundPromotion
+    100940: roundType
+    100942: //RootNode
+    100944: Score_Icon
+    100946: Score_Icon 1
+    100948: Score_Icon 2
+    100950: Score_Icon 3
+    100952: SecretCuita
+    100954: SecretCuiTaTips
+    100956: SecretRoomInvite
+    100958: SecretRoomTips
+    100960: shine_left
+    100962: shine_right
+    100964: shoupaiContainer
+    100966: SideHolder
+    100968: SideHolder 1
+    100970: SideHolder 2
+    100972: SideHolder 3
+    100974: signal
+    100976: south
+    100978: Spr_gouxuan
+    100980: Sprite
+    100982: Sprite 1
+    100984: Sprite 2
+    100986: Sprite 3
+    100988: Sprite 4
+    100990: Sprite 5
+    100992: Sprite 6
+    100994: Sprite 7
+    100996: Sprite 8
+    100998: Sprite 9
+    101000: Sprite01
+    101002: Sprite01 1
+    101004: Sprite01 2
+    101006: Sprite01 3
+    101008: Sprite02
+    101010: Sprite02 1
+    101012: Sprite02 2
+    101014: Sprite02 3
+    101016: Sprite03
+    101018: Sprite03 1
+    101020: Sprite03 2
+    101022: Sprite03 3
+    101024: Sprite_Hu
+    101026: Sprite_title
+    101028: Status
+    101030: Status 1
+    101032: Status 2
+    101034: Status 3
+    101036: Status_Bk
+    101038: Status_Bk 1
+    101040: Status_Bk 2
+    101042: Status_Bk 3
+    101044: Status_Bk 4
+    101046: Status_Bk 5
+    101048: Status_Bk 6
+    101050: Status_Bk 7
+    101052: Status_Tips
+    101054: Status_Tips 1
+    101056: Status_Tips 2
+    101058: Status_Tips 3
+    101060: System_icons
+    101062: Table
+    101064: Tag
+    101066: Task_Tips
+    101068: Task_Tips 1
+    101070: TerrminateBubble
+    101072: Text
+    101074: Text 1
+    101076: Text 2
+    101078: Text 3
+    101080: Text 4
+    101082: Text 5
+    101084: Text 6
+    101086: Texture_Blur
+    101088: tiaodai
+    101090: tiaodai01
+    101092: TilesHolder
+    101094: TilesHolder 1
+    101096: TilesHolder 2
+    101098: TilesHolder 3
+    101100: time_back
+    101102: Ting_Tips
+    101104: Ting_Tips 1
+    101106: Ting_Tips 2
+    101108: Ting_Tips 3
+    101110: TingTips
+    101112: Tips
+    101114: tips
+    101116: tips 1
+    101118: Tips_Bk
+    101120: Tips_Network
+    101122: title
+    101124: Tuoguan
+    101126: Tuoguan_Bk
+    101128: Tuoguan_Label
+    101130: UI Root
+    101132: UICamera
+    101134: uiWidgetText
+    101136: User
+    101138: User0
+    101140: User1
+    101142: User1UI
+    101144: User2
+    101146: User2UI
+    101148: User3
+    101150: User3UI
+    101152: User4UI
+    101154: User_0
+    101156: User_1
+    101158: User_2
+    101160: User_3
+    101162: User_information
+    101164: ViewCameraPos
+    101166: ViewCameraPos 1
+    101168: ViewCameraPos 2
+    101170: Voice
+    101172: Wall0
+    101174: Wall0 1
+    101176: Wall1
+    101178: Wall1 1
+    101180: Wall2
+    101182: Wall2 1
+    101184: Wall3
+    101186: Wall3 1
+    101188: west
+    101190: WinMore_Tips
+    101192: WordPanel
+    101194: Wuhanmajiang_Beishu
+    101196: Wuhanmajiang_Beishu 1
+    101198: Wuhanmajiang_Beishu 2
+    101200: Wuhanmajiang_Beishu 3
+    101202: zhuang_icon
+    101204: zhuang_icon 1
+    101206: zhuang_icon 2
+    101208: zhuang_icon 3
+    101210: Zhunbei_Tips
+    101212: Zhunbei_Tips 1
+    101214: Zhunbei_Tips 2
+    101216: Zhunbei_Tips 3
+    400000: 2
+    400002: 2 1
+    400004: AvatarPos
+    400006: AvatarPos 1
+    400008: AvatarPos 2
+    400010: AvatarPos 3
+    400012: Back
+    400014: Back 1
+    400016: Back 2
+    400018: Back 3
+    400020: Back 4
+    400022: Back 5
+    400024: Back 6
+    400026: Back 7
+    400028: Back2
+    400030: Back2 1
+    400032: Back2 2
+    400034: Back2 3
+    400036: Background
+    400038: background
+    400040: Background 1
+    400042: Background 10
+    400044: Background 11
+    400046: Background 12
+    400048: Background 13
+    400050: Background 14
+    400052: Background 15
+    400054: Background 16
+    400056: Background 17
+    400058: Background 18
+    400060: Background 19
+    400062: Background 2
+    400064: Background 20
+    400066: Background 21
+    400068: Background 22
+    400070: Background 23
+    400072: Background 24
+    400074: Background 3
+    400076: Background 4
+    400078: Background 5
+    400080: Background 6
+    400082: Background 7
+    400084: Background 8
+    400086: Background 9
+    400088: BeanMatch
+    400090: Beans
+    400092: Beans 1
+    400094: Beans 10
+    400096: Beans 11
+    400098: Beans 12
+    400100: Beans 13
+    400102: Beans 14
+    400104: Beans 15
+    400106: Beans 2
+    400108: Beans 3
+    400110: Beans 4
+    400112: Beans 5
+    400114: Beans 6
+    400116: Beans 7
+    400118: Beans 8
+    400120: Beans 9
+    400122: Beans_liuguang
+    400124: Beans_liuguang 1
+    400126: Beans_liuguang 2
+    400128: Beans_liuguang 3
+    400130: BigMJPaiPos
+    400132: BK
+    400134: Bk
+    400136: bk
+    400138: Bk 1
+    400140: bk 1
+    400142: bk 2
+    400144: BlurBack
+    400146: btn
+    400148: Btn1
+    400150: Btn2
+    400152: Btn3
+    400154: Btn4
+    400156: Btn_TrustTips
+    400158: Btn_Tuoguan
+    400160: Bubble
+    400162: Button-ChangShaGang
+    400164: Button-Chi
+    400166: Button-DealHu
+    400168: Button-DealHuGuo
+    400170: Button-DianPao
+    400172: Button-Gang
+    400174: Button-GangYao
+    400176: Button-GangYaoBlockGuo
+    400178: Button-GangYaoGuo
+    400180: Button-GangYaoHu
+    400182: Button-Guo
+    400184: Button-HaiDiGuo
+    400186: Button-HaiDiYao
+    400188: Button-Hu
+    400190: Button-MultiChi
+    400192: Button-MultiGangYao
+    400194: Button-MultiMingGang
+    400196: Button-MultiPeng
+    400198: Button-Peng
+    400200: Button-Ting
+    400202: Button-ZhaNiao
+    400204: Button_back
+    400206: Button_backToHall
+    400208: Button_beans
+    400210: Button_Bet
+    400212: Button_chat
+    400214: Button_Friend
+    400216: Button_help
+    400218: Button_Laizi
+    400220: Button_menu
+    400222: Button_onlineFriend
+    400224: Button_SecretCuiTa
+    400226: Button_secretRoomInfo
+    400228: Button_start
+    400230: Button_task
+    400232: Button_Tips
+    400234: Button_Vibrate
+    400236: Button_View
+    400238: Button_WinMore
+    400240: Button_WX
+    400242: ButtonCancel
+    400244: camera1pos
+    400246: camera1pos 1
+    400248: camera1pos 2
+    400250: camera1pos 3
+    400252: camera1pos 4
+    400254: camera2end
+    400256: camera2end 1
+    400258: camera2end 2
+    400260: camera2end 3
+    400262: camera2end 4
+    400264: camera2star
+    400266: camera2star 1
+    400268: camera2star 2
+    400270: camera2star 3
+    400272: camera2star 4
+    400274: Carpet
+    400276: CenterNumber
+    400278: Changci_Difen
+    400280: Changci_Hong
+    400282: Changci_Info
+    400284: Changci_Title
+    400286: ChangeMJContainer
+    400288: chargeBtn
+    400290: Chat
+    400292: Chat 1
+    400294: Chat 2
+    400296: Chat 3
+    400298: Container
+    400300: Container 1
+    400302: Containers
+    400304: Containers 1
+    400306: Containers 2
+    400308: Containers 3
+    400310: content
+    400312: Controller
+    400314: Countdown_effect
+    400316: Countdown_effect 1
+    400318: Countdown_effect 2
+    400320: Countdown_effect 3
+    400322: CPGUIPanel
+    400324: DahuCamera
+    400326: Desk
+    400328: DeskContainer
+    400330: Detail
+    400332: DetailChoicePanel
+    400334: Difen
+    400336: Difen 1
+    400338: Dingque_Ani
+    400340: Dingque_Ani 1
+    400342: Dingque_Ani 2
+    400344: Dingque_Ani 3
+    400346: Dingque_icon
+    400348: Dingque_icon 1
+    400350: Dingque_icon 2
+    400352: Dingque_icon 3
+    400354: Dingque_icon 4
+    400356: Dingque_icon 5
+    400358: Dingque_icon 6
+    400360: Dingque_icon 7
+    400362: Dingque_Text
+    400364: Dingque_Text 1
+    400366: Dingque_Text 2
+    400368: Dingque_Text 3
+    400370: direction
+    400372: disableMic
+    400374: djs_number
+    400376: east
+    400378: effect
+    400380: effect 1
+    400382: effect 2
+    400384: effect 3
+    400386: face_bk_mask
+    400388: face_bk_mask 1
+    400390: face_bk_mask 2
+    400392: face_bk_mask 3
+    400394: face_bk_selected
+    400396: face_bk_selected 1
+    400398: face_bk_selected 2
+    400400: face_bk_selected 3
+    400402: face_bk_unselected
+    400404: face_bk_unselected 1
+    400406: face_bk_unselected 2
+    400408: face_bk_unselected 3
+    400410: Fen
+    400412: Fen 1
+    400414: Fen 10
+    400416: Fen 11
+    400418: Fen 12
+    400420: Fen 13
+    400422: Fen 14
+    400424: Fen 15
+    400426: Fen 2
+    400428: Fen 3
+    400430: Fen 4
+    400432: Fen 5
+    400434: Fen 6
+    400436: Fen 7
+    400438: Fen 8
+    400440: Fen 9
+    400442: Fen_liuguang2
+    400444: Fen_liuguang2 1
+    400446: Fen_liuguang2 2
+    400448: Fen_liuguang2 3
+    400450: FlowerHolder
+    400452: FlowerHolder 1
+    400454: FlowerHolder 2
+    400456: FlowerHolder 3
+    400458: FrontCamera
+    400460: FrontCamera 1
+    400462: FrontCameraPos
+    400464: FrontHandCamera_16_9
+    400466: FrontHandCamera_4_3
+    400468: FrontLayer
+    400470: FUser0
+    400472: FUser1
+    400474: FUser2
+    400476: FUser3
+    400478: FX_ButtonBet_effect
+    400480: FX_UI01_piaofen_01
+    400482: FX_UI01_piaofen_01 1
+    400484: FX_UI01_piaofen_01 2
+    400486: FX_UI01_piaofen_01 3
+    400488: FX_UI01_piaofen_02
+    400490: FX_UI01_piaofen_02 1
+    400492: FX_UI01_piaofen_02 2
+    400494: FX_UI01_piaofen_02 3
+    400496: FX_UI01_piaofenMatch_01
+    400498: FX_UI01_piaofenMatch_02
+    400500: FX_UI01_renshu_01
+    400502: FX_UI01_renshu_01 1
+    400504: FX_UI01_renshu_01 2
+    400506: FX_UI01_renshu_01 3
+    400508: GameController
+    400510: glass
+    400512: gou
+    400514: Grid
+    400516: GuoHuCount
+    400518: handtiles
+    400520: hint
+    400522: Hole
+    400524: Hu_State
+    400526: Hu_State 1
+    400528: Hu_State 2
+    400530: Hu_State 3
+    400532: Icons
+    400534: Icons 1
+    400536: Icons 2
+    400538: JieSuanObj
+    400540: Kaikuo
+    400542: Label
+    400544: label
+    400546: Label 1
+    400548: label 1
+    400550: Label 10
+    400552: Label 11
+    400554: Label 12
+    400556: Label 13
+    400558: Label 2
+    400560: label 2
+    400562: Label 3
+    400564: label 3
+    400566: Label 4
+    400568: label 4
+    400570: Label 5
+    400572: label 5
+    400574: Label 6
+    400576: Label 7
+    400578: Label 8
+    400580: Label 9
+    400582: Label1
+    400584: Label1 1
+    400586: Label2
+    400588: Label2 1
+    400590: Label_bean
+    400592: label_bean
+    400594: Label_bean 1
+    400596: Label_bean 2
+    400598: Label_bean 3
+    400600: Label_bean 4
+    400602: Label_bean_bg
+    400604: Label_bean_icon
+    400606: label_blue
+    400608: Label_fenshu
+    400610: Label_fenshu 1
+    400612: Label_fenshu 2
+    400614: Label_fenshu 3
+    400616: Label_HuInfo
+    400618: Label_HuInfo 1
+    400620: Label_HuInfo 2
+    400622: Label_HuInfo 3
+    400624: Label_Lose_Money
+    400626: Label_Lose_Money 1
+    400628: Label_Lose_Money 2
+    400630: Label_Lose_Money 3
+    400632: Label_Lose_Money 4
+    400634: Label_Lose_Money 5
+    400636: Label_Lose_Money 6
+    400638: Label_Lose_Money 7
+    400640: Label_Lose_Money 8
+    400642: label_orange
+    400644: label_other
+    400646: Label_Piao
+    400648: Label_Piao 1
+    400650: Label_Piao 2
+    400652: Label_Piao 3
+    400654: Label_private_bean
+    400656: Label_private_bean 1
+    400658: Label_private_bean 2
+    400660: Label_private_bean 3
+    400662: Label_Text
+    400664: Label_Texture_face
+    400666: Label_Texture_face 1
+    400668: Label_Texture_face 2
+    400670: Label_Texture_face 3
+    400672: Label_Win_Money
+    400674: Label_Win_Money 1
+    400676: Label_Win_Money 2
+    400678: Label_Win_Money 3
+    400680: Label_Win_Money 4
+    400682: Label_Win_Money 5
+    400684: Label_Win_Money 6
+    400686: Label_Win_Money 7
+    400688: Label_Win_Money 8
+    400690: Label_WX
+    400692: Lable1
+    400694: Lable2
+    400696: Lable2_Time
+    400698: Lable_SVIP
+    400700: Lable_SVIP 1
+    400702: Lable_SVIP 2
+    400704: Lable_SVIP 3
+    400706: Lable_VIP
+    400708: Lable_VIP 1
+    400710: Lable_VIP 2
+    400712: Lable_VIP 3
+    400714: LastDropPointer
+    400716: liangguang
+    400718: liangguang 1
+    400720: liangguang 2
+    400722: liangguang 3
+    400724: light2
+    400726: liuguang2
+    400728: lizi01
+    400730: lizi01 1
+    400732: lizi01 2
+    400734: lizi01 3
+    400736: lizi01 4
+    400738: lizi01 5
+    400740: lizi01 6
+    400742: lizi01 7
+    400744: lizi02
+    400746: MahjongTable
+    400748: MahjongTable_Lift_LR
+    400750: MahjongTable_Lift_TB
+    400752: MainCamera_16_9
+    400754: MainCamera_4_3
+    400756: Marquee
+    400758: Marquee 1
+    400760: Match_Leaderboard
+    400762: matchtype
+    400764: mic
+    400766: MJCount
+    400768: mjpai01
+    400770: mjpai01 1
+    400772: mjpai01 2
+    400774: mjpai01 3
+    400776: mjpai01 4
+    400778: mjpai01 5
+    400780: mjpai01 6
+    400782: mjpai01 7
+    400784: mjpai01_L
+    400786: mjpai01_L 1
+    400788: mjpai01_L 2
+    400790: mjpai01_L 3
+    400792: mjpai04_1
+    400794: mjpai04_2
+    400796: mjpai11
+    400798: mjpai11 1
+    400800: mjpai11_L
+    400802: mjpai12
+    400804: mjpai12 1
+    400806: mjpai12_L
+    400808: mjpai13
+    400810: mjpai13 1
+    400812: mjpai13_L
+    400814: mjpai14
+    400816: mjpai14 1
+    400818: mjpai14_L
+    400820: mjpai14_L 1
+    400822: My_Beans
+    400824: Name
+    400826: Name 1
+    400828: north
+    400830: Number
+    400832: Number 1
+    400834: OffLine
+    400836: OffLine 1
+    400838: OffLine 2
+    400840: OffLine 3
+    400842: offlineIcon
+    400844: offlineIcon 1
+    400846: offlineIcon 2
+    400848: offlineIcon 3
+    400850: Panel_Piaofen
+    400852: Particle System
+    400854: Particle System 1
+    400856: Particle System 2
+    400858: Particle System 3
+    400860: Piaofen
+    400862: Piaofen 1
+    400864: Piaofen 2
+    400866: Piaofen 3
+    400868: Plan
+    400870: Plane
+    400872: Plane 1
+    400874: Plane 2
+    400876: PlayedHolder
+    400878: PlayedHolder 1
+    400880: PlayedHolder 2
+    400882: PlayedHolder 3
+    400884: Player0
+    400886: Player1
+    400888: Player2
+    400890: Player3
+    400892: PlayerMJ0
+    400894: PlayerMJ1
+    400896: PlayerMJ2
+    400898: PlayerMJ3
+    400900: point01
+    400902: pointer_01
+    400904: pointer_02
+    400906: PrivateOverTips
+    400908: qihu
+    400910: QiHuLabel
+    400912: Red_Dot
+    400914: Red_Dot_san
+    400916: Renshu
+    400918: Renshu 1
+    400920: Renshu 2
+    400922: Renshu 3
+    400924: result
+    400926: roomOwner_icon
+    400928: roomOwner_icon 1
+    400930: roomOwner_icon 2
+    400932: roomOwner_icon 3
+    400934: RotateObj
+    400936: roundFDInfo
+    400938: roundPromotion
+    400940: roundType
+    400942: //RootNode
+    400944: Score_Icon
+    400946: Score_Icon 1
+    400948: Score_Icon 2
+    400950: Score_Icon 3
+    400952: SecretCuita
+    400954: SecretCuiTaTips
+    400956: SecretRoomInvite
+    400958: SecretRoomTips
+    400960: shine_left
+    400962: shine_right
+    400964: shoupaiContainer
+    400966: SideHolder
+    400968: SideHolder 1
+    400970: SideHolder 2
+    400972: SideHolder 3
+    400974: signal
+    400976: south
+    400978: Spr_gouxuan
+    400980: Sprite
+    400982: Sprite 1
+    400984: Sprite 2
+    400986: Sprite 3
+    400988: Sprite 4
+    400990: Sprite 5
+    400992: Sprite 6
+    400994: Sprite 7
+    400996: Sprite 8
+    400998: Sprite 9
+    401000: Sprite01
+    401002: Sprite01 1
+    401004: Sprite01 2
+    401006: Sprite01 3
+    401008: Sprite02
+    401010: Sprite02 1
+    401012: Sprite02 2
+    401014: Sprite02 3
+    401016: Sprite03
+    401018: Sprite03 1
+    401020: Sprite03 2
+    401022: Sprite03 3
+    401024: Sprite_Hu
+    401026: Sprite_title
+    401028: Status
+    401030: Status 1
+    401032: Status 2
+    401034: Status 3
+    401036: Status_Bk
+    401038: Status_Bk 1
+    401040: Status_Bk 2
+    401042: Status_Bk 3
+    401044: Status_Bk 4
+    401046: Status_Bk 5
+    401048: Status_Bk 6
+    401050: Status_Bk 7
+    401052: Status_Tips
+    401054: Status_Tips 1
+    401056: Status_Tips 2
+    401058: Status_Tips 3
+    401060: System_icons
+    401062: Table
+    401064: Tag
+    401066: Task_Tips
+    401068: Task_Tips 1
+    401070: TerrminateBubble
+    401072: Text
+    401074: Text 1
+    401076: Text 2
+    401078: Text 3
+    401080: Text 4
+    401082: Text 5
+    401084: Text 6
+    401086: Texture_Blur
+    401088: tiaodai
+    401090: tiaodai01
+    401092: TilesHolder
+    401094: TilesHolder 1
+    401096: TilesHolder 2
+    401098: TilesHolder 3
+    401100: time_back
+    401102: Ting_Tips
+    401104: Ting_Tips 1
+    401106: Ting_Tips 2
+    401108: Ting_Tips 3
+    401110: TingTips
+    401112: Tips
+    401114: tips
+    401116: tips 1
+    401118: Tips_Bk
+    401120: Tips_Network
+    401122: title
+    401124: Tuoguan
+    401126: Tuoguan_Bk
+    401128: Tuoguan_Label
+    401130: UI Root
+    401132: UICamera
+    401134: uiWidgetText
+    401136: User
+    401138: User0
+    401140: User1
+    401142: User1UI
+    401144: User2
+    401146: User2UI
+    401148: User3
+    401150: User3UI
+    401152: User4UI
+    401154: User_0
+    401156: User_1
+    401158: User_2
+    401160: User_3
+    401162: User_information
+    401164: ViewCameraPos
+    401166: ViewCameraPos 1
+    401168: ViewCameraPos 2
+    401170: Voice
+    401172: Wall0
+    401174: Wall0 1
+    401176: Wall1
+    401178: Wall1 1
+    401180: Wall2
+    401182: Wall2 1
+    401184: Wall3
+    401186: Wall3 1
+    401188: west
+    401190: WinMore_Tips
+    401192: WordPanel
+    401194: Wuhanmajiang_Beishu
+    401196: Wuhanmajiang_Beishu 1
+    401198: Wuhanmajiang_Beishu 2
+    401200: Wuhanmajiang_Beishu 3
+    401202: zhuang_icon
+    401204: zhuang_icon 1
+    401206: zhuang_icon 2
+    401208: zhuang_icon 3
+    401210: Zhunbei_Tips
+    401212: Zhunbei_Tips 1
+    401214: Zhunbei_Tips 2
+    401216: Zhunbei_Tips 3
+    2300000: Back2
+    2300002: Back2 1
+    2300004: Back2 2
+    2300006: Back2 3
+    2300008: Beans_liuguang
+    2300010: Beans_liuguang 1
+    2300012: Beans_liuguang 2
+    2300014: Beans_liuguang 3
+    2300016: Carpet
+    2300018: east
+    2300020: face_bk_mask
+    2300022: face_bk_mask 1
+    2300024: face_bk_mask 2
+    2300026: face_bk_mask 3
+    2300028: Fen_liuguang2
+    2300030: Fen_liuguang2 1
+    2300032: Fen_liuguang2 2
+    2300034: Fen_liuguang2 3
+    2300036: glass
+    2300038: Hole
+    2300040: liangguang
+    2300042: liangguang 1
+    2300044: liangguang 2
+    2300046: liangguang 3
+    2300048: liuguang2
+    2300050: MahjongTable
+    2300052: MahjongTable_Lift_LR
+    2300054: MahjongTable_Lift_TB
+    2300056: mjpai01 4
+    2300058: mjpai01 5
+    2300060: mjpai01 6
+    2300062: mjpai01 7
+    2300064: mjpai01_L
+    2300066: mjpai01_L 1
+    2300068: mjpai01_L 2
+    2300070: mjpai01_L 3
+    2300072: mjpai11 1
+    2300074: mjpai11_L
+    2300076: mjpai12 1
+    2300078: mjpai12_L
+    2300080: mjpai13 1
+    2300082: mjpai13_L
+    2300084: mjpai14
+    2300086: mjpai14 1
+    2300088: mjpai14_L
+    2300090: mjpai14_L 1
+    2300092: north
+    2300094: Plane
+    2300096: Plane 1
+    2300098: Plane 2
+    2300100: point01
+    2300102: south
+    2300104: west
+    3300000: Back2
+    3300002: Back2 1
+    3300004: Back2 2
+    3300006: Back2 3
+    3300008: Beans_liuguang
+    3300010: Beans_liuguang 1
+    3300012: Beans_liuguang 2
+    3300014: Beans_liuguang 3
+    3300016: Carpet
+    3300018: east
+    3300020: face_bk_mask
+    3300022: face_bk_mask 1
+    3300024: face_bk_mask 2
+    3300026: face_bk_mask 3
+    3300028: Fen_liuguang2
+    3300030: Fen_liuguang2 1
+    3300032: Fen_liuguang2 2
+    3300034: Fen_liuguang2 3
+    3300036: glass
+    3300038: Hole
+    3300040: liangguang
+    3300042: liangguang 1
+    3300044: liangguang 2
+    3300046: liangguang 3
+    3300048: liuguang2
+    3300050: MahjongTable
+    3300052: MahjongTable_Lift_LR
+    3300054: MahjongTable_Lift_TB
+    3300056: mjpai01 4
+    3300058: mjpai01 5
+    3300060: mjpai01 6
+    3300062: mjpai01 7
+    3300064: mjpai01_L
+    3300066: mjpai01_L 1
+    3300068: mjpai01_L 2
+    3300070: mjpai01_L 3
+    3300072: mjpai11 1
+    3300074: mjpai11_L
+    3300076: mjpai12 1
+    3300078: mjpai12_L
+    3300080: mjpai13 1
+    3300082: mjpai13_L
+    3300084: mjpai14
+    3300086: mjpai14 1
+    3300088: mjpai14_L
+    3300090: mjpai14_L 1
+    3300092: north
+    3300094: Plane
+    3300096: Plane 1
+    3300098: Plane 2
+    3300100: point01
+    3300102: south
+    3300104: west
+    4300000: point01
+    4300002: Plane
+    4300004: Fen_liuguang2
+    4300006: face_bk_mask
+    4300008: face_bk_mask
+    4300010: Plane
+    4300012: south
+    4300014: glass
+    4300016: east
+    4300018: north
+    4300020: west
+    4300022: MahjongTable_Lift_LR
+    4300024: MahjongTable_Lift_TB
+    4300026: MahjongTable
+    4300028: Hole
+    4300030: Carpet
+    4300032: mjpai14
+    4300034: mjpai14_L
+    4300036: mjpai12
+    4300038: mjpai12_L
+    4300040: mjpai11_L
+    4300042: mjpai11
+    4300044: mjpai13
+    4300046: mjpai13_L
+    4300048: mjpai01
+    4300050: mjpai01_L
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
